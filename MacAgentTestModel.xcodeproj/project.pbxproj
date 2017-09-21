@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01390DE41AF9B949008DB345 /* MAAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DE31AF9B949008DB345 /* MAAgent.m */; };
+		01390DE71AF9B993008DB345 /* BuyerAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DE61AF9B993008DB345 /* BuyerAgent.m */; };
+		01390DF51AF9B9FC008DB345 /* MacAgentTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DF41AF9B9FC008DB345 /* MacAgentTestDemo.m */; };
+		01390DFA1AF9BA52008DB345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DF91AF9BA52008DB345 /* main.m */; };
+		01390DFD1AF9BA9C008DB345 /* VisaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DFC1AF9BA9C008DB345 /* VisaAgent.m */; };
+		01390E031AF9BABA008DB345 /* PaypalAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E021AF9BABA008DB345 /* PaypalAgent.m */; };
+		01390E091AF9BAEB008DB345 /* FacebookAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E081AF9BAEB008DB345 /* FacebookAgent.m */; };
+		01390E0C1AF9BB09008DB345 /* TwitterAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E0B1AF9BB09008DB345 /* TwitterAgent.m */; };
+		01390E0F1AF9BB27008DB345 /* PrintAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E0E1AF9BB27008DB345 /* PrintAgent.m */; };
+		01390E121AF9BB2E008DB345 /* EmailAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E111AF9BB2E008DB345 /* EmailAgent.m */; };
+		014DE75A1AFA9AD000B65D6D /* MAAgentFixture.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D252DE1AFA3562001269F6 /* MAAgentFixture.m */; };
+		014DE75B1AFA9AE100B65D6D /* BuyerAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DE61AF9B993008DB345 /* BuyerAgent.m */; };
+		014DE75C1AFA9AE400B65D6D /* VisaAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DFC1AF9BA9C008DB345 /* VisaAgent.m */; };
+		014DE75D1AFA9AE400B65D6D /* PaypalAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E021AF9BABA008DB345 /* PaypalAgent.m */; };
+		014DE75E1AFA9AE900B65D6D /* FacebookAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E081AF9BAEB008DB345 /* FacebookAgent.m */; };
+		014DE75F1AFA9AE900B65D6D /* TwitterAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E0B1AF9BB09008DB345 /* TwitterAgent.m */; };
+		014DE7601AFA9AE900B65D6D /* PrintAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E0E1AF9BB27008DB345 /* PrintAgent.m */; };
+		014DE7611AFA9AE900B65D6D /* EmailAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390E111AF9BB2E008DB345 /* EmailAgent.m */; };
+		014DE7621AFA9BE100B65D6D /* MAAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01390DE31AF9B949008DB345 /* MAAgent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0108A4FD1AF9B8DF00510E8E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0108A4FF1AF9B8DF00510E8E /* MacAgentTestModel */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacAgentTestModel; sourceTree = BUILT_PRODUCTS_DIR; };
+		01390DE21AF9B949008DB345 /* MAAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAgent.h; sourceTree = SOURCE_ROOT; };
+		01390DE31AF9B949008DB345 /* MAAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAgent.m; sourceTree = SOURCE_ROOT; };
+		01390DE51AF9B993008DB345 /* BuyerAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyerAgent.h; sourceTree = "<group>"; };
+		01390DE61AF9B993008DB345 /* BuyerAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyerAgent.m; sourceTree = "<group>"; };
+		01390DF01AF9B9FC008DB345 /* MacAgentTestDemo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAgentTestDemo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01390DF31AF9B9FC008DB345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01390DF41AF9B9FC008DB345 /* MacAgentTestDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacAgentTestDemo.m; sourceTree = "<group>"; };
+		01390DF91AF9BA52008DB345 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01390DFB1AF9BA9C008DB345 /* VisaAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaAgent.h; sourceTree = "<group>"; };
+		01390DFC1AF9BA9C008DB345 /* VisaAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaAgent.m; sourceTree = "<group>"; };
+		01390E011AF9BABA008DB345 /* PaypalAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaypalAgent.h; sourceTree = "<group>"; };
+		01390E021AF9BABA008DB345 /* PaypalAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaypalAgent.m; sourceTree = "<group>"; };
+		01390E071AF9BAEB008DB345 /* FacebookAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAgent.h; sourceTree = "<group>"; };
+		01390E081AF9BAEB008DB345 /* FacebookAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAgent.m; sourceTree = "<group>"; };
+		01390E0A1AF9BB09008DB345 /* TwitterAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAgent.h; sourceTree = "<group>"; };
+		01390E0B1AF9BB09008DB345 /* TwitterAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAgent.m; sourceTree = "<group>"; };
+		01390E0D1AF9BB27008DB345 /* PrintAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintAgent.h; sourceTree = "<group>"; };
+		01390E0E1AF9BB27008DB345 /* PrintAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintAgent.m; sourceTree = "<group>"; };
+		01390E101AF9BB2E008DB345 /* EmailAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailAgent.h; sourceTree = "<group>"; };
+		01390E111AF9BB2E008DB345 /* EmailAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailAgent.m; sourceTree = "<group>"; };
+		01D252DD1AFA3562001269F6 /* MAAgentFixture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAgentFixture.h; sourceTree = SOURCE_ROOT; };
+		01D252DE1AFA3562001269F6 /* MAAgentFixture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAgentFixture.m; sourceTree = SOURCE_ROOT; };
+		01FD9E7C1AFA8A8D00A90A66 /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0108A4FC1AF9B8DF00510E8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01390DED1AF9B9FC008DB345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0108A4F61AF9B8DF00510E8E = {
+			isa = PBXGroup;
+			children = (
+				0108A50B1AF9B90700510E8E /* Demo */,
+				0108A5011AF9B8DF00510E8E /* Sdk */,
+				01390DF11AF9B9FC008DB345 /* Test */,
+				0108A5001AF9B8DF00510E8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0108A5001AF9B8DF00510E8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0108A4FF1AF9B8DF00510E8E /* MacAgentTestModel */,
+				01390DF01AF9B9FC008DB345 /* MacAgentTestDemo.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0108A5011AF9B8DF00510E8E /* Sdk */ = {
+			isa = PBXGroup;
+			children = (
+				01390DE21AF9B949008DB345 /* MAAgent.h */,
+				01390DE31AF9B949008DB345 /* MAAgent.m */,
+				01D252DD1AFA3562001269F6 /* MAAgentFixture.h */,
+				01D252DE1AFA3562001269F6 /* MAAgentFixture.m */,
+			);
+			name = Sdk;
+			path = MacAgentTestModel;
+			sourceTree = "<group>";
+		};
+		0108A50B1AF9B90700510E8E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				01FD9E7B1AFA8A6100A90A66 /* Protocol */,
+				01390E061AF9BAE1008DB345 /* Export */,
+				01390E051AF9BAD5008DB345 /* Buyer */,
+				01390E041AF9BAC7008DB345 /* Payment */,
+				01390DF91AF9BA52008DB345 /* main.m */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		01390DF11AF9B9FC008DB345 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				01390DF41AF9B9FC008DB345 /* MacAgentTestDemo.m */,
+				01390DF21AF9B9FC008DB345 /* Supporting Files */,
+			);
+			name = Test;
+			path = MacAgentTestDemo;
+			sourceTree = "<group>";
+		};
+		01390DF21AF9B9FC008DB345 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01390DF31AF9B9FC008DB345 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01390E041AF9BAC7008DB345 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				01390DFB1AF9BA9C008DB345 /* VisaAgent.h */,
+				01390DFC1AF9BA9C008DB345 /* VisaAgent.m */,
+				01390E011AF9BABA008DB345 /* PaypalAgent.h */,
+				01390E021AF9BABA008DB345 /* PaypalAgent.m */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		01390E051AF9BAD5008DB345 /* Buyer */ = {
+			isa = PBXGroup;
+			children = (
+				01390DE51AF9B993008DB345 /* BuyerAgent.h */,
+				01390DE61AF9B993008DB345 /* BuyerAgent.m */,
+			);
+			name = Buyer;
+			sourceTree = "<group>";
+		};
+		01390E061AF9BAE1008DB345 /* Export */ = {
+			isa = PBXGroup;
+			children = (
+				01390E071AF9BAEB008DB345 /* FacebookAgent.h */,
+				01390E081AF9BAEB008DB345 /* FacebookAgent.m */,
+				01390E0A1AF9BB09008DB345 /* TwitterAgent.h */,
+				01390E0B1AF9BB09008DB345 /* TwitterAgent.m */,
+				01390E0D1AF9BB27008DB345 /* PrintAgent.h */,
+				01390E0E1AF9BB27008DB345 /* PrintAgent.m */,
+				01390E101AF9BB2E008DB345 /* EmailAgent.h */,
+				01390E111AF9BB2E008DB345 /* EmailAgent.m */,
+			);
+			name = Export;
+			sourceTree = "<group>";
+		};
+		01FD9E7B1AFA8A6100A90A66 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				01FD9E7C1AFA8A8D00A90A66 /* MyProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0108A4FE1AF9B8DF00510E8E /* MacAgentTestModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0108A5061AF9B8DF00510E8E /* Build configuration list for PBXNativeTarget "MacAgentTestModel" */;
+			buildPhases = (
+				0108A4FB1AF9B8DF00510E8E /* Sources */,
+				0108A4FC1AF9B8DF00510E8E /* Frameworks */,
+				0108A4FD1AF9B8DF00510E8E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAgentTestModel;
+			productName = MacAgentTestModel;
+			productReference = 0108A4FF1AF9B8DF00510E8E /* MacAgentTestModel */;
+			productType = "com.apple.product-type.tool";
+		};
+		01390DEF1AF9B9FC008DB345 /* MacAgentTestDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01390DF61AF9B9FC008DB345 /* Build configuration list for PBXNativeTarget "MacAgentTestDemo" */;
+			buildPhases = (
+				01390DEC1AF9B9FC008DB345 /* Sources */,
+				01390DED1AF9B9FC008DB345 /* Frameworks */,
+				01390DEE1AF9B9FC008DB345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAgentTestDemo;
+			productName = MacAgentTestDemo;
+			productReference = 01390DF01AF9B9FC008DB345 /* MacAgentTestDemo.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0108A4F71AF9B8DF00510E8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Bernardo Breder";
+				TargetAttributes = {
+					0108A4FE1AF9B8DF00510E8E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					01390DEF1AF9B9FC008DB345 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0108A4FA1AF9B8DF00510E8E /* Build configuration list for PBXProject "MacAgentTestModel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0108A4F61AF9B8DF00510E8E;
+			productRefGroup = 0108A5001AF9B8DF00510E8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0108A4FE1AF9B8DF00510E8E /* MacAgentTestModel */,
+				01390DEF1AF9B9FC008DB345 /* MacAgentTestDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01390DEE1AF9B9FC008DB345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0108A4FB1AF9B8DF00510E8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01390E121AF9BB2E008DB345 /* EmailAgent.m in Sources */,
+				01390E031AF9BABA008DB345 /* PaypalAgent.m in Sources */,
+				01390DFD1AF9BA9C008DB345 /* VisaAgent.m in Sources */,
+				01390DE41AF9B949008DB345 /* MAAgent.m in Sources */,
+				01390E0F1AF9BB27008DB345 /* PrintAgent.m in Sources */,
+				01390E091AF9BAEB008DB345 /* FacebookAgent.m in Sources */,
+				01390DFA1AF9BA52008DB345 /* main.m in Sources */,
+				01390DE71AF9B993008DB345 /* BuyerAgent.m in Sources */,
+				01390E0C1AF9BB09008DB345 /* TwitterAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01390DEC1AF9B9FC008DB345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014DE7611AFA9AE900B65D6D /* EmailAgent.m in Sources */,
+				014DE75D1AFA9AE400B65D6D /* PaypalAgent.m in Sources */,
+				014DE75C1AFA9AE400B65D6D /* VisaAgent.m in Sources */,
+				014DE7621AFA9BE100B65D6D /* MAAgent.m in Sources */,
+				01390DF51AF9B9FC008DB345 /* MacAgentTestDemo.m in Sources */,
+				014DE7601AFA9AE900B65D6D /* PrintAgent.m in Sources */,
+				014DE75E1AFA9AE900B65D6D /* FacebookAgent.m in Sources */,
+				014DE75A1AFA9AD000B65D6D /* MAAgentFixture.m in Sources */,
+				014DE75B1AFA9AE100B65D6D /* BuyerAgent.m in Sources */,
+				014DE75F1AFA9AE900B65D6D /* TwitterAgent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0108A5041AF9B8DF00510E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0108A5051AF9B8DF00510E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0108A5071AF9B8DF00510E8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0108A5081AF9B8DF00510E8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01390DF71AF9B9FC008DB345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacAgentTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01390DF81AF9B9FC008DB345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacAgentTestDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0108A4FA1AF9B8DF00510E8E /* Build configuration list for PBXProject "MacAgentTestModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0108A5041AF9B8DF00510E8E /* Debug */,
+				0108A5051AF9B8DF00510E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0108A5061AF9B8DF00510E8E /* Build configuration list for PBXNativeTarget "MacAgentTestModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0108A5071AF9B8DF00510E8E /* Debug */,
+				0108A5081AF9B8DF00510E8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01390DF61AF9B9FC008DB345 /* Build configuration list for PBXNativeTarget "MacAgentTestDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01390DF71AF9B9FC008DB345 /* Debug */,
+				01390DF81AF9B9FC008DB345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0108A4F71AF9B8DF00510E8E /* Project object */;
+}
