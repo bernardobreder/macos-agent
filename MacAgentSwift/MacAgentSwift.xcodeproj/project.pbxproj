@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D833E61B0609FA005A2FCE /* MacAgentSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D833E51B0609FA005A2FCE /* MacAgentSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01D833EC1B0609FA005A2FCE /* MacAgentSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D833E01B0609FA005A2FCE /* MacAgentSwift.framework */; };
+		01D833F31B0609FA005A2FCE /* MacAgentSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D833F21B0609FA005A2FCE /* MacAgentSwiftTests.swift */; };
+		01D833FD1B060A0C005A2FCE /* MAAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D833FC1B060A0C005A2FCE /* MAAgent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D833ED1B0609FA005A2FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D833D71B0609FA005A2FCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D833DF1B0609FA005A2FCE;
+			remoteInfo = MacAgentSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D833E01B0609FA005A2FCE /* MacAgentSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MacAgentSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D833E41B0609FA005A2FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D833E51B0609FA005A2FCE /* MacAgentSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacAgentSwift.h; sourceTree = "<group>"; };
+		01D833EB1B0609FA005A2FCE /* MacAgentSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacAgentSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D833F11B0609FA005A2FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D833F21B0609FA005A2FCE /* MacAgentSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacAgentSwiftTests.swift; sourceTree = "<group>"; };
+		01D833FC1B060A0C005A2FCE /* MAAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAAgent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D833DC1B0609FA005A2FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D833E81B0609FA005A2FCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D833EC1B0609FA005A2FCE /* MacAgentSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D833D61B0609FA005A2FCE = {
+			isa = PBXGroup;
+			children = (
+				01D833E21B0609FA005A2FCE /* MacAgentSwift */,
+				01D833EF1B0609FA005A2FCE /* MacAgentSwiftTests */,
+				01D833E11B0609FA005A2FCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01D833E11B0609FA005A2FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D833E01B0609FA005A2FCE /* MacAgentSwift.framework */,
+				01D833EB1B0609FA005A2FCE /* MacAgentSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D833E21B0609FA005A2FCE /* MacAgentSwift */ = {
+			isa = PBXGroup;
+			children = (
+				01D833FC1B060A0C005A2FCE /* MAAgent.swift */,
+				01D833E51B0609FA005A2FCE /* MacAgentSwift.h */,
+				01D833E31B0609FA005A2FCE /* Supporting Files */,
+			);
+			path = MacAgentSwift;
+			sourceTree = "<group>";
+		};
+		01D833E31B0609FA005A2FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D833E41B0609FA005A2FCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01D833EF1B0609FA005A2FCE /* MacAgentSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				01D833F21B0609FA005A2FCE /* MacAgentSwiftTests.swift */,
+				01D833F01B0609FA005A2FCE /* Supporting Files */,
+			);
+			path = MacAgentSwiftTests;
+			sourceTree = "<group>";
+		};
+		01D833F01B0609FA005A2FCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01D833F11B0609FA005A2FCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01D833DD1B0609FA005A2FCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D833E61B0609FA005A2FCE /* MacAgentSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01D833DF1B0609FA005A2FCE /* MacAgentSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D833F61B0609FA005A2FCE /* Build configuration list for PBXNativeTarget "MacAgentSwift" */;
+			buildPhases = (
+				01D833DB1B0609FA005A2FCE /* Sources */,
+				01D833DC1B0609FA005A2FCE /* Frameworks */,
+				01D833DD1B0609FA005A2FCE /* Headers */,
+				01D833DE1B0609FA005A2FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacAgentSwift;
+			productName = MacAgentSwift;
+			productReference = 01D833E01B0609FA005A2FCE /* MacAgentSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		01D833EA1B0609FA005A2FCE /* MacAgentSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D833F91B0609FA005A2FCE /* Build configuration list for PBXNativeTarget "MacAgentSwiftTests" */;
+			buildPhases = (
+				01D833E71B0609FA005A2FCE /* Sources */,
+				01D833E81B0609FA005A2FCE /* Frameworks */,
+				01D833E91B0609FA005A2FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D833EE1B0609FA005A2FCE /* PBXTargetDependency */,
+			);
+			name = MacAgentSwiftTests;
+			productName = MacAgentSwiftTests;
+			productReference = 01D833EB1B0609FA005A2FCE /* MacAgentSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D833D71B0609FA005A2FCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = MacAgent;
+				TargetAttributes = {
+					01D833DF1B0609FA005A2FCE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					01D833EA1B0609FA005A2FCE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 01D833DA1B0609FA005A2FCE /* Build configuration list for PBXProject "MacAgentSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01D833D61B0609FA005A2FCE;
+			productRefGroup = 01D833E11B0609FA005A2FCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D833DF1B0609FA005A2FCE /* MacAgentSwift */,
+				01D833EA1B0609FA005A2FCE /* MacAgentSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D833DE1B0609FA005A2FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D833E91B0609FA005A2FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D833DB1B0609FA005A2FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D833FD1B060A0C005A2FCE /* MAAgent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D833E71B0609FA005A2FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D833F31B0609FA005A2FCE /* MacAgentSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D833EE1B0609FA005A2FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D833DF1B0609FA005A2FCE /* MacAgentSwift */;
+			targetProxy = 01D833ED1B0609FA005A2FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01D833F41B0609FA005A2FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		01D833F51B0609FA005A2FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01D833F71B0609FA005A2FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MacAgentSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01D833F81B0609FA005A2FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = MacAgentSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		01D833FA1B0609FA005A2FCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacAgentSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01D833FB1B0609FA005A2FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MacAgentSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D833DA1B0609FA005A2FCE /* Build configuration list for PBXProject "MacAgentSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D833F41B0609FA005A2FCE /* Debug */,
+				01D833F51B0609FA005A2FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D833F61B0609FA005A2FCE /* Build configuration list for PBXNativeTarget "MacAgentSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D833F71B0609FA005A2FCE /* Debug */,
+				01D833F81B0609FA005A2FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01D833F91B0609FA005A2FCE /* Build configuration list for PBXNativeTarget "MacAgentSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D833FA1B0609FA005A2FCE /* Debug */,
+				01D833FB1B0609FA005A2FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01D833D71B0609FA005A2FCE /* Project object */;
+}
